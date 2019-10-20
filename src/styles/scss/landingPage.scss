@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.header-section h1 {
+  text-align: center;
+  padding: 1em 0 0 0;
+  text-transform: capitalize;
+}
+
+.working-title {
+  text-align: center;
+  padding: 1em 0 0 0;
+  font-size: 16px;
+}
+
+.amount-converted {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+
+.sub-container {
+  display: flex;
+  width: 850px;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  margin: 2em auto;
+}
+
+.below {
+  margin: 2em auto;
+  width: 850px;
+}
+
+.enter-amount,
+.exchange-rate, .select-option-left {
+  padding: 2.5em 0 4em 0;
+}
+
+.select-option-left {
+  width: 200px;
+}
+.exchange-rate-answer{
+  width: 200px;
+  height: 40px;
+  border-radius: 4px;
+  text-align: center;
+  color: black;
+  padding: 0.5em 0 0 0;
+  font-size: 16px;
+  border: 1px solid #0386dd;
+}
+
+.exchange-rate-const{
+  width: 150px;
+  height: 40px;
+  border-radius: 4px;
+  text-align: center;
+  color: white;
+  padding: 0.5em 0 0 0;
+  font-size: 16px;
+  background-color: black;
+}
+.quote {
+  background-color: dodgerblue !important;
+}
+
+.testing:after {
+  background-color: DodgerBlue;
+}
+
+.enter-amount input {
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+.copyright-and-history {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-copyright {
+  font-size: 8px;
+}
+.footer {
+  font-weight: bold;
+}
+
+.history-list {
+  display: flex;
+  text-decoration: none;
+  border-bottom: 1px solid red;
+}
+
+.history-list li {
+  display: inline;
+  padding: 2px;
+}
+
+.list-history {
+  margin: 5px;
+}
+
+.list-history span {
+  font-weight: bold;
+}
